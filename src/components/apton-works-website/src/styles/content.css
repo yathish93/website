@@ -1,0 +1,177 @@
+.content-display h6 {
+  margin: 0;
+}
+.content-display {
+  display: flex;
+}
+.content-display center {
+  margin-top: 70px;
+}
+.content-image {
+  margin-top: 320px;
+}
+.content {
+  margin-top: 50px;
+  margin-left: 140px;
+}
+.second-content-image {
+  max-height: 87px;
+}
+.second-content-body {
+  margin-top: 50px;
+}
+.second-content-body h6 {
+  margin: 0;
+}
+.second-content-body p {
+  font-size: 17px;
+}
+.second-content-body center {
+  margin: 50px 0;
+}
+.third-content h6{
+    margin: 0;
+}
+.third-content  p{
+    width: 60%;
+}
+.change-color-1 {
+    color: #15279d;
+}
+.depertment-content {
+  display: flex;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  overflow: hidden;
+  color: #15279d;
+}
+.depertment-content h6 {
+  margin: 0;
+}
+.dept-img {
+  margin-top: 150px;
+}
+.dept-body {
+  padding-top: 50px;
+  margin-right: 100px;
+}
+.dept-body p {
+  font-size: 17px;
+}
+.fourth-content {
+  display: flex;
+  padding: 100px;
+}
+.graphs {
+  width: 25%;
+  text-align: center;
+  color: #ffffff;
+}
+.graphs p {
+  margin: 0;
+  font-size: 100px;
+}
+.graphs span {
+  font-size: 35px;
+}
+.fifth-content img {
+  width: 150px;
+}
+.lang-logos-header {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.change-color {
+  color: #fbaf35;
+}
+.social {
+    margin-top: 30px;
+}
+.social img{
+    width: 30px;
+    margin: 5px;
+}
+.search-bar {
+  width: 100%;
+  max-width: 429px;
+  background: rgba(31, 31, 31, 1);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+}
+.search-bar input {
+  background: transparent;
+
+  border: 0;
+  padding: 0px 20px;
+  font-size: 20px;
+  color: #cccc;
+}
+
+.search-bar button {
+  border: 0;
+
+  border-radius: 60px;
+  width: 150px;
+  height: 50px;
+}
+
+.col-4 form {
+  align-items: right;
+  float: right;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .content-display {
+        display: block;
+    }
+   .content, .second-content-body, .dept-body {
+       display: block;
+       margin: 20px;
+   }
+   .content-image, .dept-img {
+    display: none;
+   }
+   .second-content-image {
+    display: none;
+   }
+   .third-content{
+       padding: 20px;
+   }
+   .fourth-content {
+       display: block;
+       padding: 50px;
+       text-align: center;
+   }
+   .graphs {
+       width: 100%;
+       text-align: center;
+       margin-bottom: 20px;
+   }
+   .graphs p{
+       margin: 0;
+       margin-bottom: 10px;
+       font-size: 70px;
+   }
+   .graphs span {
+       font-size: 30px;
+   }
+   .col-1, .col-2, .col-3, .col-4{
+       width: 100%;
+   }
+   .col-4 {
+       text-align:left;
+       margin-bottom: 50px;
+   }
+   .col-4 p {
+       padding: 0 20px;
+   }
+   .col-4 form{
+    margin: 20px;
+   }
+  }
