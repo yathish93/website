@@ -29,18 +29,18 @@
 .second-content-body center {
   margin: 50px 0;
 }
-.third-content h6{
-    margin: 0;
+.third-content h6 {
+  margin: 0;
 }
-.third-content  p{
-    width: 60%;
+.third-content p {
+  width: 60%;
 }
 .change-color-1 {
-    color: #15279d;
+  color: #15279d;
 }
 .depertment-content {
   display: flex;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 60px;
@@ -89,11 +89,11 @@
   color: #fbaf35;
 }
 .social {
-    margin-top: 30px;
+  margin-top: 30px;
 }
-.social img{
-    width: 30px;
-    margin: 5px;
+.social img {
+  width: 30px;
+  margin: 5px;
 }
 .search-bar {
   width: 100%;
@@ -125,53 +125,58 @@
   float: right;
 }
 
-
 @media only screen and (max-width: 600px) {
-    .content-display {
-        display: block;
-    }
-   .content, .second-content-body, .dept-body {
-       display: block;
-       margin: 20px;
-   }
-   .content-image, .dept-img {
-    display: none;
-   }
-   .second-content-image {
-    display: none;
-   }
-   .third-content{
-       padding: 20px;
-   }
-   .fourth-content {
-       display: block;
-       padding: 50px;
-       text-align: center;
-   }
-   .graphs {
-       width: 100%;
-       text-align: center;
-       margin-bottom: 20px;
-   }
-   .graphs p{
-       margin: 0;
-       margin-bottom: 10px;
-       font-size: 70px;
-   }
-   .graphs span {
-       font-size: 30px;
-   }
-   .col-1, .col-2, .col-3, .col-4{
-       width: 100%;
-   }
-   .col-4 {
-       text-align:left;
-       margin-bottom: 50px;
-   }
-   .col-4 p {
-       padding: 0 20px;
-   }
-   .col-4 form{
-    margin: 20px;
-   }
+  .content-display {
+    display: block;
   }
+  .content,
+  .second-content-body,
+  .dept-body {
+    display: block;
+    margin: 20px;
+  }
+  .content-image,
+  .dept-img {
+    display: none;
+  }
+  .second-content-image {
+    display: none;
+  }
+  .third-content {
+    padding: 20px;
+  }
+  .fourth-content {
+    display: block;
+    padding: 50px;
+    text-align: center;
+  }
+  .graphs {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .graphs p {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 70px;
+  }
+  .graphs span {
+    font-size: 30px;
+  }
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4 {
+    width: 100%;
+  }
+  .col-4 {
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  .col-4 p {
+    padding: 0 20px;
+  }
+  .col-4 form {
+    margin: 20px;
+  }
+}

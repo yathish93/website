@@ -12,7 +12,7 @@
 .navlist {
   list-style: none;
   display: flex;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -44,7 +44,6 @@ li a:hover {
 .col-1 {
   text-align: center;
   width: 20%;
-  /* margin-left: 100px; */
   padding-top: 10px;
 }
 .col-2 {
@@ -53,7 +52,7 @@ li a:hover {
 .col-2 li a {
   text-decoration: none;
   color: white;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -63,7 +62,7 @@ li a:hover {
 .col-2 li a:hover {
   text-decoration: none;
   color: #fbaf35;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -76,7 +75,7 @@ li a:hover {
 .col-3 li a {
   text-decoration: none;
   color: white;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -86,7 +85,7 @@ li a:hover {
 .col-3 li a:hover {
   text-decoration: none;
   color: #fbaf35;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -94,7 +93,7 @@ li a:hover {
   transition: 0.4s;
 }
 .col-4 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -116,8 +115,8 @@ video {
 /* Main */
 
 .slider-text {
-  margin: 350px 30px 40px 120px;
-  font-family: "Roboto";
+  margin: 20% 30px 40px 120px;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -127,7 +126,7 @@ video {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .slider-tagline {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -143,7 +142,7 @@ video {
 .content-display {
   overflow: hidden;
   position: relative;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -155,7 +154,7 @@ video {
   background: linear-gradient(269.9deg, #081047 0.08%, #192eb4 99.91%);
 }
 .sub-content {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -166,7 +165,7 @@ video {
 }
 
 .callbutton4 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -199,7 +198,7 @@ video {
 .second-content {
   display: flex;
   align-items: center;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 60px;
@@ -209,7 +208,7 @@ video {
 }
 .second-sub-content {
   display: inline-block;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -218,7 +217,7 @@ video {
   opacity: 0.6;
 }
 .second-content-button {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -230,7 +229,7 @@ video {
 }
 .third-content {
   margin: 0;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 60px;
@@ -242,7 +241,7 @@ video {
   background: linear-gradient(90deg, #fbaf35 0%, #d84213 100%);
 }
 .third-sub-content {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -264,7 +263,7 @@ video {
   display: inline-block;
   width: 20%;
   padding: 2%;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 117.552px;
@@ -273,7 +272,7 @@ video {
   color: #f5f5f5;
 }
 .clients {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -288,7 +287,7 @@ video {
 .fifth-content {
   margin: 50px 0;
   position: relative;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -307,7 +306,7 @@ video {
   position: absolute;
   bottom: 9%;
   left: 10%;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -321,7 +320,7 @@ video {
   width: 100%;
 }
 .about-what-we-do {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 60px;
@@ -337,7 +336,7 @@ video {
   margin: auto;
   width: 60%;
   padding: 10px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -350,7 +349,7 @@ video {
 }
 
 .about-who-we-are {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -364,13 +363,12 @@ video {
   color: #000000;
 }
 
-.about-our-vlaues {
-  font-family: "Roboto";
+.about-our-values {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 2px;
-  /* or 40% */
   text-align: center;
   overflow: hidden;
   color: #ffffff;
@@ -397,7 +395,7 @@ video {
 .our-vlaues-tagline {
   margin: auto;
   width: 80%;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -436,7 +434,7 @@ video {
   margin: 56px 107px 70px 112px;
 }
 .line {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -460,7 +458,7 @@ video {
   width: 30%;
 }
 .second {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -476,7 +474,7 @@ video {
 }
 
 .service-3 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -493,7 +491,7 @@ video {
 }
 
 .first3 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -509,7 +507,7 @@ video {
   color: black;
 }
 .second3 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -523,7 +521,7 @@ video {
 
 .deep-expert {
   margin: auto;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -531,7 +529,7 @@ video {
 }
 .deep-expert1 {
   margin-left: 60px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -542,7 +540,7 @@ video {
 .wallet-implementation {
   overflow: hidden;
   position: relative;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -555,7 +553,7 @@ video {
 }
 
 .smart-contracts {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -572,7 +570,7 @@ video {
   display: table-cell;
   width: 50%;
   color: black;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -585,7 +583,7 @@ video {
 }
 
 .hyperledger {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -603,7 +601,7 @@ video {
   text-align: left;
   display: table-cell;
   width: 30%;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -684,13 +682,27 @@ video {
 .nav-icon {
   display: none;
 }
-
+/* for small screen */
 @media screen and (max-width: 960px) {
+  .slider-text {
+    margin: 20% 30px 10px 10%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .slider-tagline {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0px 30px 20px 10%;
+  }
   .nav-menu {
     display: flex;
     flex-direction: column;
     width: 100%;
-    border-top: 1pxsolid #fff;
+    border-top: 1px solid #fff;
     position: absolute;
     top: 80px;
     left: -110%;
