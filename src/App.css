@@ -100,7 +100,7 @@ li a:hover {
   font-size: 20px;
   line-height: 35px;
   padding-top: 20px;
-width: 40%;
+  width: 40%;
   text-align: right;
   color: #ffffff;
 }
@@ -422,10 +422,9 @@ video {
   position: absolute;
   width: 167.75px;
   height: 145.36px;
-  left: 143.10px;
+  left: 143.1px;
 }
-.manager{
-
+.manager {
   position: absolute;
   width: 163.1px;
   height: 170.32px;
@@ -437,18 +436,18 @@ video {
   margin: 56px 107px 70px 112px;
 }
 .line {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 40px;
-/* or 200% */
-color: #FFFFFF;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  /* or 200% */
+  color: #ffffff;
   padding-right: 21px; /* 20+1 */
   position: relative;
 }
 .line:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   border-right: 1px solid #cfc7c0;
@@ -461,31 +460,30 @@ color: #FFFFFF;
   width: 30%;
 }
 .second {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 60px;
-/* or 80% */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 60px;
+  /* or 80% */
 
-text-align: left;
+  text-align: left;
 
-color: #FFFFFF;
+  color: #ffffff;
   display: table-cell;
   width: 30%;
   padding-left: 80px;
 }
 
-
 .service-3 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 24px;
   /* or 40% */
   text-align: center;
-  
+
   color: #000000;
 }
 .container3 {
@@ -495,31 +493,29 @@ color: #FFFFFF;
 }
 
 .first3 {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 40px;
-/* or 133% */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  /* or 133% */
 
+  color: #000000;
 
-color: #000000;
-
-opacity: 0.8;
+  opacity: 0.8;
   text-align: left;
   display: table-cell;
   width: 30%;
   color: black;
 }
 .second3 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 40px;
   /* or 133% */
-  
-  
+
   color: #000000;
   display: table-cell;
   width: 40%;
@@ -534,7 +530,7 @@ opacity: 0.8;
   line-height: 30px;
 }
 .deep-expert1 {
- margin-left: 60px;
+  margin-left: 60px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -555,43 +551,41 @@ opacity: 0.8;
 
   color: #ffffff;
 
-  background: linear-gradient(90deg, #FBAF35 0%, #F76F45 100%);
+  background: linear-gradient(90deg, #fbaf35 0%, #f76f45 100%);
 }
 
 .smart-contracts {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 60px;
-line-height: 30px;
-/* identical to box height, or 50% */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 30px;
+  /* identical to box height, or 50% */
 
-text-align: center;
+  text-align: center;
 
-color: #000000;
+  color: #000000;
 }
 
-.first4  {
-
+.first4 {
   text-align: left;
   display: table-cell;
   width: 50%;
   color: black;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 40px;
   /* or 200% */
-  
-  
+
   color: #000000;
-  
+
   opacity: 0.8;
 }
 
 .hyperledger {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -599,39 +593,36 @@ color: #000000;
   /* or 50% */
   align-items: center;
   text-align: center;
-  
-  color: #FFFFFF;
-  
-background: linear-gradient(90deg, #FBAF35 0%, #F76F45 100%);
+
+  color: #ffffff;
+
+  background: linear-gradient(90deg, #fbaf35 0%, #f76f45 100%);
 }
 
-.first5  {
-
+.first5 {
   text-align: left;
   display: table-cell;
   width: 30%;
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 40px;
-/* or 133% */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  /* or 133% */
 
+  color: #ffffff;
 
-color: #FFFFFF;
-
-opacity: 0.8;
+  opacity: 0.8;
 }
 
 @media only screen and (max-width: 600px) {
-  .logo{
-  max-width: 200px;
-  padding: 0;
+  .logo {
+    max-width: 200px;
+    padding: 0;
   }
-  .toggle-menu ul{
+  .toggle-menu ul {
     display: block;
   }
-
 }
 
 .nav-container {
@@ -735,7 +726,7 @@ opacity: 0.8;
     cursor: pointer;
     color: #ffdd40;
   }
-  .nav-item a{
+  .nav-item a {
     margin-bottom: 20px;
   }
 }
