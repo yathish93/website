@@ -1,10 +1,15 @@
-
 import logo from "../logo.png";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useRef } from "react";
+
+import {  MenuItem, ControlledMenu } from "@szhsin/react-menu";
+import "@szhsin/react-menu/dist/index.css";
+import "@szhsin/react-menu/dist/transitions/slide.css";
+
 function Navbar() {
   const [click, setClick] = useState(false);
-
+  const ref = useRef(null);
+  const [isOpen, setOpen] = useState();
   const handleClick = () => setClick(!click);
   return (
     <nav className="navbar">
@@ -14,17 +19,31 @@ function Navbar() {
         </a>
       </div>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
-      <li className="nav-item">
+        <li className="nav-item">
           <Link to="/practices" className="nav-links">
             Practices
           </Link>{" "}
         </li>
         <li className="nav-item">
-          <Link to="/services" className="nav-links">
+         
+          <div ref={ref} to="/services" className="nav-links services-button" onMouseEnter={() => setOpen(true)}>
             Services
-          </Link>
+          </div>
+
+          <ControlledMenu
+            state={isOpen ? "open" : "closed"}
+            anchorRef={ref}
+            onMouseLeave={() => setOpen(false)}
+            onClose={() => setOpen(false)}
+            offsetY={15}
+          >
+            <MenuItem><Link to="/services" className="Blockchain-and-Web3-menu-item">Blockchain and Web3 </Link></MenuItem>
+            <MenuItem>Data Analytics </MenuItem>
+           
+          </ControlledMenu>
+         
         </li>
-        
+
         <li className="nav-item">
           {" "}
           <Link to="/about" className="nav-links">

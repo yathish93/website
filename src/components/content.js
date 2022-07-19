@@ -14,7 +14,7 @@ function Content() {
       <div className="content-display">
         <div className="content">
           <h6>
-            Generate <span className="change-color">Web3 App</span> Better and Quicker, <br />
+            Generate <span className="change-color">Web3 App</span> Better and Faster, <br />
             Without a Single Line of Code!
           </h6>
           <p className="sub-content">
@@ -34,7 +34,7 @@ function Content() {
           </center>
         </div>
         <div className="content-image">
-          <img src={web3} alt="" width="450" />
+          <img src={web3} alt="" width="460" className="content-image-style" />
         </div>
       </div>
       <div className="second-content">
@@ -50,7 +50,7 @@ function Content() {
             NFTs are poised to make far-reaching changes industry-wide, and we
             can make it easier for you to jump on the bandwagon. Get your own
             profitable and scalable NFT marketplace and draw in the expanding
-            NFT user base.A wide variety of assets can be tokenised in NFT
+            NFT user base.A wide variety of assets can be tokenized in NFT
             markets entrenched by our company, including artworks, gaming
             collectables, physical items and more. Unlock the potential of
             blockchain and collaborate with us to establish a game-changing NFT
@@ -87,7 +87,7 @@ function Content() {
         </div>
         <div className="dept-body">
           <h6>
-            World-class <span className="change-color">Crypto Wallet</span> Development <br />
+            World-class <span className="change-color">Crypto Wallet</span> Development 
             Services for Smoother Transactions
           </h6>
           <p className="second-sub-content">
@@ -100,7 +100,7 @@ function Content() {
             sheer know-how, the expertise of utmost standards, and technical
             skill sets, you will attain utmost proficiency.
           </p>
-          <center>
+          <center className='second-content-button-style'>
             <a href="#" className="second-content-button">
               Get Started
             </a>

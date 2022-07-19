@@ -29,9 +29,14 @@ function Main() {
             <br /> Talents in Blockchain Technology
           </p>
           <p className="slider-tagline">
-            Web3 is at the heart of what we do- we create <br /> absolute Web3
+            Web3 is at the heart of what we do - we create absolute Web3
             experiences.
           </p>
+          <center>
+            <a href="#" className="callbutton4">
+              Schedule a call{" "}
+            </a>
+          </center>
         </div>
         <div>
           <p className="slider-text">
@@ -43,6 +48,13 @@ function Main() {
             Interested in learning more about NFT business opportunities? <br />
             As an NFT marketplace developer, we can help!
           </p>
+          <center>
+            <a href="#" className="callbutton4">
+              Schedule a call{" "}
+            </a>
+          </center>
+          <br />
+          <br />
         </div>
         <div>
           <p className="slider-text">
@@ -54,8 +66,14 @@ function Main() {
             Transact seamlessly, transparently and safely with Apton Works'
             smart contracts.{" "}
           </p>
+          <center>
+            <a href="#" className="callbutton4">
+              Schedule a call{" "}
+            </a>
+          </center>
         </div>
       </Slider>
+
       <Content />
     </>
   );

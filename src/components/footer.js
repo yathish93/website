@@ -10,7 +10,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="col-1">
-        <img src={logo} width="200px" />
+        <img src={logo} width="250px" />
         <div className="social">
           {/* <img src={logo1} alt="logo1" style={{backgroundColor: 'gray'}}/> */}
           <img src={logo6} alt="logo1" />
@@ -60,7 +60,7 @@ function Footer() {
           traget="_blank"
         >
           <input type="text" placeholder="Email Address" name="q" />
-          <button type="submit"> subscribe</button>
+          <button type="submit" width="100%"> Subscribe</button>
         </form>
       </div>
     </div>

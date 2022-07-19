@@ -1,24 +1,22 @@
-
-import aboutus from '../images/aboutus.png';
-import socialdistance from '../images/socialdistance.png';
-import cyber from '../images/cyber.png';
-import manager from '../images/manager.png'
-import learning from '../images/learning.png'
+import aboutus from "../images/aboutus.png";
+import socialdistance from "../images/socialdistance.png";
+import cyber from "../images/cyber.png";
+import manager from "../images/manager.png";
+import learning from "../images/learning.png";
 import "../styles/about.css";
 
-
 function About() {
-    return (
-      <div>
+  return (
+    <div>
       <div className="about-head-text">
-        <img className="about-head-image" src={aboutus} alt="Freedom Blog" />
+        {/* <img className="about-head-image" src={aboutus} alt="Freedom Blog" /> */}
         <div className="about-text-on-image">
           <p> Technology is Making Strides, and So Do We! </p>
         </div>
       </div>
 
       <div className="about-what-we-do">
-        <h6>What We Do?</h6>
+        <h6 className="about-what-we-do-text">What We Do?</h6>
         <p className="what-we-do-tagline">
           Being a trusted blockchain-powered Web 3.0 Development Company, Apton
           Works is experienced in implementing next-generation technologies and
@@ -32,7 +30,7 @@ function About() {
       </div>
 
       <div className="about-who-we-are">
-        <h6>Who We Are ?</h6>
+        <h6 className="about-what-we-do-text">Who We Are ?</h6>
         <p className="what-we-do-tagline">
           Apton Works is a trusted Web3 company of highly-seasoned Blockchain,
           DevOps and Data Analytics experts with one shared vision- To
@@ -44,8 +42,8 @@ function About() {
         </p>
       </div>
 
-      <div className="about-our-vlaues">
-        <h6 className="about-our-vlaues-header">Our Values</h6>
+      <div className="about-our-values">
+        <h6 className="about-our-values-header">Our Values</h6>
         <div className="row">
           <div className="col">
             <div className="column">
@@ -56,7 +54,7 @@ function About() {
                 width="100px"
               />
               <h6>We keep you in mind</h6>
-              <p className="our-vlaues-tagline">
+              <p className="our-values-tagline">
                 Our first step is to understand what you need, so we determine
                 the appropriate tools. Our meetings are open to you, you will
                 receive regular reports, and your feedback is absolutely
@@ -66,42 +64,34 @@ function About() {
             <div className="column">
               <img className="manager" src={manager} alt="" width="100px" />
               <h6>Continual assistance</h6>
-              <p className="our-vlaues-tagline">
+              <p className="our-values-tagline">
                 We consult with you at every stage of the cycle, identifying and
                 resolving bottlenecks as soon as they arise.
               </p>
             </div>
           </div>
-            <div className="column">
-              <img
-                className="socialdistance"
-                src={cyber}
-                alt=""
-                width="100px"
-              />
-              <h6>The latest technology</h6>
-              <p className="our-vlaues-tagline">
-                We use top-notch DLT tools to render matchless speed, data
-                integrity, secure environment, and adaptability to our clients.
-              </p>
-            </div>
-            <div className="column">
-              <img className="manager" src={learning} alt="" width="100px" />
-              <h6>We are also on our learning path </h6>
-              <p className="our-vlaues-tagline">
-                It's impossible for an organisation to stand still. This is
-                applicable to us too. With our focus on delivering cutting-edge
-                advice and service, we are continually refining our abilities
-                and know-how.
-              </p>
-            </div>
-          
+          <div className="column">
+            <img className="socialdistance" src={cyber} alt="" width="100px" />
+            <h6>The latest technology</h6>
+            <p className="our-values-tagline">
+              We use top-notch DLT tools to render matchless speed, data
+              integrity, secure environment, and adaptability to our clients.
+            </p>
+          </div>
+          <div className="column">
+            <img className="manager" src={learning} alt="" width="100px" />
+            <h6>We are also on our learning path </h6>
+            <p className="our-values-tagline">
+              It's impossible for an organisation to stand still. This is
+              applicable to us too. With our focus on delivering cutting-edge
+              advice and service, we are continually refining our abilities and
+              know-how.
+            </p>
+          </div>
         </div>
       </div>
-    </div>    
-           
-    )
+    </div>
+  );
 }
 
 export default About;
-

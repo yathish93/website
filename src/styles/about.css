@@ -1,28 +1,26 @@
-
-
 @media only screen and (max-width: 600px) {
-    .about-text-on-image {
-        font-size: 20px;
-    }
-    .about-what-we-do h6, .about-who-we-are h6 {
-        margin: 30px 0 30px 0;
-    }
-    .what-we-do-tagline {
-        width: 100%;
-    }
-    .col {
-        display: block;
-        margin-bottom: 0;
-    }
-    .row {
-        margin: 0;
-    }
-    .column {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .about-our-vlaues {
-        overflow: hidden;
-    }
+  .about-text-on-image {
+    font-size: 20px;
   }
-
+  .about-what-we-do h6,
+  .about-who-we-are h6 {
+    margin: 30px 0 30px 0;
+  }
+  .what-we-do-tagline {
+    width: 100%;
+  }
+  .col {
+    display: block;
+    margin-bottom: 0;
+  }
+  .row {
+    margin: 0;
+  }
+  .column {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .about-our-values {
+    overflow: hidden;
+  }
+}
