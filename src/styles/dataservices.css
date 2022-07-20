@@ -1,0 +1,310 @@
+.dataservices-head-text {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/dataservices.png");
+  background-position: center;
+  height: 465px;
+  background-size: contain;
+
+  filter: brightness("50%");
+}
+.dataservices-text-on-image {
+  position: absolute;
+  bottom: 9%;
+  left: 10%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 24px;
+  /* or 40% */
+  align-items: center;
+
+  color: #ffffff;
+}
+.dataservices-head-image {
+  width: 100%;
+}
+.dataservices-what-we-do {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  /* or 117% */
+  text-align: center;
+  overflow: hidden;
+  color: #ffffff;
+  background: linear-gradient(269.9deg, #186529 0.08%, #0b9b9b 99.91%);
+}
+
+.dataservices-we-do-tagline {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  padding-bottom: 55px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  /* or 200% */
+  text-align: center;
+  color: #ffffff;
+}
+
+.about-who-we-are {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 24px;
+  /* or 40% */
+  text-align: center;
+
+  color: #15279d;
+}
+.about-who-we-are > p {
+  color: #000000;
+}
+
+.about-our-vlaues {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 2px;
+  /* or 40% */
+  text-align: center;
+  overflow: hidden;
+  color: #ffffff;
+  background: linear-gradient(90deg, #fbaf35 0%, #f76f45 100%);
+}
+
+/* Create two equal columns that floats next to each other */
+
+.our-vlaues-tagline {
+  margin: auto;
+  width: 80%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.dataservices-container {
+  display: table;
+  margin: 56px 107px 70px 112px;
+}
+
+.dataservices-first {
+  text-align: left;
+  display: table-cell;
+  width: 30%;
+}
+.dataservices-second {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 60px;
+  /* or 80% */
+
+  text-align: left;
+
+  color: #ffffff;
+  display: table-cell;
+  width: 30%;
+  padding-left: 80px;
+}
+
+.dataservices-consultive {
+  display: flex;
+  position: relative;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 24px;
+  /* or 40% */
+
+  color: #000000;
+}
+.dataservices-container {
+  position: relative;
+  display: table;
+
+  color: #000000;
+}
+
+.first3 {
+  position: relative;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  /* or 133% */
+
+  color: #000000;
+
+  opacity: 0.8;
+  text-align: left;
+  display: table-cell;
+  width: 30%;
+  color: black;
+}
+
+.deep-expert {
+  margin: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+  opacity: 0.8;
+}
+.dataservices-establish {
+  margin-left: 60px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  color: black;
+  opacity: 0.7;
+}
+
+.dataservices-blockchain {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  /* or 117% */
+  text-align: center;
+  overflow: hidden;
+  color: #ffffff;
+  background: linear-gradient(90deg, #7768d7 0%, #9a0871 100%);
+}
+
+.dataservices-tagline {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  /* or 200% */
+  padding-bottom: 55px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.dataservices-ecommerce {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+
+  /* or 117% */
+  text-align: center;
+  overflow: hidden;
+
+  color: #000000;
+}
+
+.dataservices-ecommerce-tagline {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  padding-bottom: 55px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  /* or 200% */
+  text-align: center;
+
+  color: #000000;
+
+  opacity: 0.6;
+}
+.dataservices-datalake {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  /* or 117% */
+  text-align: center;
+  overflow: hidden;
+  color: #ffffff;
+  background: linear-gradient(269.9deg, #186529 0.08%, #0b9b9b 99.91%);
+}
+.dataservices-business {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  /* or 117% */
+  text-align: center;
+  overflow: hidden;
+  color: #ffffff;
+  background: linear-gradient(90deg, #7768d7 0%, #9a0871 100%);
+}
+
+@media only screen and (max-width: 600px) {
+  .dataservices-text-on-image {
+    font-size: 20px;
+  }
+
+  .dataservices-container {
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    padding-right: 3px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .dataservices-consultive,
+  .dataservices-ecommerce {
+    flex: 100%;
+    overflow: auto;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .deep-expert {
+    width: 100%;
+  }
+  .dataservices-blockchain h6 {
+    padding: 0 10px;
+  }
+  .dataservices-tagline {
+    text-align: left;
+  }
+  .dataservices-ecommerce h6 {
+    padding: 0 20px;
+  }
+  .dataservices-ecommerce-tagline {
+    text-align: left;
+  }
+  .dataservices-business {
+    padding: 0 10px;
+  }
+}

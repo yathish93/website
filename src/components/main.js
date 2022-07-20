@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "react-magic-slider-dots/dist/magic-dots.css";
 import Content from "../components/content";
 
-function Main() {
+function Main({ setFormOpen }) {
   const settings = {
     infinite: true,
     autoplay: true,
@@ -13,7 +13,7 @@ function Main() {
     initialSlide: 0,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
   };
   return (
     <>
@@ -26,14 +26,11 @@ function Main() {
           <p className="slider-text">
             Launch Your Dream <br />
             <span className="change-color">Web3 App </span>With the Best
-            <br /> Talents in Blockchain Technology
+            <br /> Team and Technology
           </p>
-          <p className="slider-tagline">
-            Web3 is at the heart of what we do - we create absolute Web3
-            experiences.
-          </p>
+          <p className="slider-tagline">We Are Web3 and Blockchain Experts</p>
           <center>
-            <a href="#" className="callbutton4">
+            <a onClick={setFormOpen} className="main-content-button">
               Schedule a call{" "}
             </a>
           </center>
@@ -45,11 +42,11 @@ function Main() {
             <br /> Development Services
           </p>
           <p className="slider-tagline">
-            Interested in learning more about NFT business opportunities? <br />
-            As an NFT marketplace developer, we can help!
+            Interested in learning more about NFT business opportunities? As an
+            NFT marketplace developer, we can help!
           </p>
           <center>
-            <a href="#" className="callbutton4">
+            <a onClick={setFormOpen} className="callbutton4">
               Schedule a call{" "}
             </a>
           </center>
@@ -58,23 +55,25 @@ function Main() {
         </div>
         <div>
           <p className="slider-text">
-            Let Us Create the{" "}
-            <span className="change-color">Smart Contract,</span> <br /> Let You
-            Determine the Currency <br /> and Plan it Follows
+            Make a Mark on the Web 3.0
+            <br />
+            Realm with Our
+            <span className="change-color">Smart Contract,</span> <br />{" "}
+            Implementation Service.
           </p>
           <p className="slider-tagline">
             Transact seamlessly, transparently and safely with Apton Works'
             smart contracts.{" "}
           </p>
           <center>
-            <a href="#" className="callbutton4">
+            <a onClick={setFormOpen} className="callbutton4">
               Schedule a call{" "}
             </a>
           </center>
         </div>
       </Slider>
 
-      <Content />
+      <Content setFormOpen={setFormOpen} />
     </>
   );
 }

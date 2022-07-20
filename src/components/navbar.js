@@ -2,11 +2,11 @@ import logo from "../logo.png";
 import { Link } from "react-router-dom";
 import { useState, useRef } from "react";
 
-import {  MenuItem, ControlledMenu } from "@szhsin/react-menu";
+import { MenuItem, ControlledMenu } from "@szhsin/react-menu";
 import "@szhsin/react-menu/dist/index.css";
 import "@szhsin/react-menu/dist/transitions/slide.css";
 
-function Navbar() {
+function Navbar({ setFormOpen }) {
   const [click, setClick] = useState(false);
   const ref = useRef(null);
   const [isOpen, setOpen] = useState();
@@ -24,9 +24,14 @@ function Navbar() {
             Practices
           </Link>{" "}
         </li>
+
         <li className="nav-item">
-         
-          <div ref={ref} to="/services" className="nav-links services-button" onMouseEnter={() => setOpen(true)}>
+          <div
+            ref={ref}
+            to="/services"
+            className="nav-links services-button"
+            onMouseEnter={() => setOpen(true)}
+          >
             Services
           </div>
 
@@ -37,11 +42,15 @@ function Navbar() {
             onClose={() => setOpen(false)}
             offsetY={15}
           >
-            <MenuItem><Link to="/services" className="Blockchain-and-Web3-menu-item">Blockchain and Web3 </Link></MenuItem>
-            <MenuItem>Data Analytics </MenuItem>
-           
+            <MenuItem>
+              <Link to="/services" className="Blockchain-and-Web3-menu-item">
+                Blockchain and Web3{" "}
+              </Link>
+            </MenuItem>
+            <Link to="/data-service" className="Blockchain-and-Web3-menu-item">
+              <MenuItem>Data Analytics </MenuItem>
+            </Link>
           </ControlledMenu>
-         
         </li>
 
         <li className="nav-item">
@@ -51,7 +60,7 @@ function Navbar() {
           </Link>{" "}
         </li>
         <li className="nav-item">
-          <a href="/call" className="callbutton1">
+          <a className="callbutton1" onClick={setFormOpen}>
             Schedule a call
           </a>
         </li>

@@ -21,7 +21,7 @@
   height: 55px;
 }
 .services-button {
-  padding: 0px 30px !important;
+  padding: 0px 25px !important;
 }
 .services-button:hover {
   cursor: pointer;
@@ -121,7 +121,7 @@ li a:hover {
 .col-4 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
   line-height: 35px;
   padding-top: 20px;
@@ -137,7 +137,7 @@ video {
   left: 0;
   object-fit: cover;
   z-index: 0;
-  height: fit-content;
+  height: 650px;
 }
 
 /* Main */
@@ -202,6 +202,11 @@ video {
 
   color: #ffffff;
 }
+.padding-10 {
+  padding-right: 10%;
+  letter-spacing: 0.2px;
+  word-spacing: 0.5px;
+}
 
 .callbutton4 {
   font-family: "Roboto", sans-serif;
@@ -213,6 +218,7 @@ video {
   border: 2px solid white;
   padding: 10px 30px;
   border-radius: 32px;
+  cursor: pointer;
 }
 .callbutton4:hover {
   background-color: white;
@@ -227,6 +233,7 @@ video {
   border: 2px solid white;
   border-radius: 32px;
   /* margin-right: 80px; */
+  cursor: pointer;
 }
 .callbutton1:hover {
   background-color: white;
@@ -255,6 +262,21 @@ video {
   color: #000000;
   opacity: 0.6;
   padding-right: 80px;
+}
+.padding-20 h6 {
+  padding-left: 60px;
+}
+.nft-second-sub-content {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #000000;
+  opacity: 0.6;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 .second-content-button {
   font-family: "Roboto", sans-serif;
@@ -348,7 +370,30 @@ video {
   background-size: contain;
   filter: brightness("50%");
 }
+.blockchain-head-text {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./images/services.png");
+  background-position: center;
+  height: 500px;
+  background-size: contain;
+  filter: brightness("50%");
+}
 .about-text-on-image {
+  position: absolute;
+  bottom: 12%;
+  left: 10%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 24px;
+  /* or 40% */
+  align-items: center;
+
+  color: #ffffff;
+}
+.blockchain-text-on-image {
   position: absolute;
   bottom: 12%;
   left: 10%;
@@ -378,24 +423,66 @@ video {
   color: #ffffff;
   background: linear-gradient(269.9deg, #192eb4 0.08%, #2fb7be 99.91%);
 }
+
+.blockchain-what-we-do {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  /* line-height: 70px; */
+  /* or 117% */
+  text-align: left;
+  overflow: hidden;
+  color: #ffffff;
+  line-height: 30px;
+  background: linear-gradient(269.9deg, #192eb4 0.08%, #2fb7be 99.91%);
+}
+.blockchain-what-we-do h6 {
+  margin: 60px 0 50px 15%;
+}
 .about-what-we-do-text {
-  margin: 100px 0 20px 0;
+  margin: 120px 0 30px 0;
 }
 .what-we-do-tagline {
   margin: auto;
   width: 70%;
   padding: 10px;
-  padding-bottom: 70px;
+  padding-bottom: 100px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 40px;
   /* or 200% */
-
   text-align: center;
-
   color: #ffffff;
+}
+
+.blockchain-what-we-do-tagline {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+  padding-bottom: 100px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  /* or 200% */
+  text-align: left;
+  color: #ffffff;
+}
+.about-us-subtitle-header {
+  font-size: 22px;
+  margin: 0px 10px 25px 0;
+}
+
+.padding-100 {
+  padding: 0% 0% 10% 10%;
+}
+
+.text-align-left {
+  text-align: left;
 }
 
 .about-who-we-are {
@@ -443,15 +530,27 @@ video {
   clear: both;
 }
 .our-values-tagline {
-  margin: auto;
   width: 80%;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 30px;
 }
-
+.about-us-subtitle-image {
+  width: 100px;
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.about-us-subtitle-first-element {
+  height: 125px;
+}
+.about-us-subtitle-image-first {
+  position: absolute;
+  width: 200px;
+  margin-left: -50px;
+  margin-top: -22px;
+}
 .toggle-menu ul {
   display: none;
   width: 25px;
@@ -481,7 +580,11 @@ video {
 /*services */
 .container {
   display: table;
-  margin: 56px 107px 70px 112px;
+  margin: 50px 75px 70px 100px;
+}
+.container-1 {
+  display: table;
+  padding: 0px 75px 150px 75px;
 }
 .line {
   font-family: "Roboto", sans-serif;
@@ -505,22 +608,24 @@ video {
 .first {
   text-align: left;
   display: table-cell;
-  width: 30%;
+  width: 50%;
+  padding-right: 60px;
+  font-size: 16px;
 }
 .second {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
-  line-height: 60px;
+  font-size: 22px;
+  line-height: 55px;
   /* or 80% */
 
   text-align: left;
 
   color: #ffffff;
   display: table-cell;
-  width: 30%;
-  padding-left: 80px;
+  /* width: 32%; */
+  padding-left: 60px;
 }
 
 .service-3 {
@@ -529,17 +634,29 @@ video {
   font-weight: 500;
   font-size: 60px;
   line-height: 24px;
-  /* or 40% */
-  text-align: center;
-
   color: #000000;
 }
 .container3 {
   display: table;
-  margin: 56px 107px 70px 112px;
+  margin: 50px 25px 70px 80px;
   color: #000000;
 }
+.dataservices-blockchain h6 {
+  margin: 80px 0 20px 0;
+}
 
+.dataservices-ecommerce h6 {
+  margin: 80px 0 20px 0;
+}
+.dataservices-datalake h6 {
+  margin: 80px 0 20px 0;
+}
+.dataservices-business h6 {
+  margin: 80px 0 20px 15px;
+}
+.dataservices-datalake h6 {
+  margin: 80px 0 20px 0;
+}
 .first3 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -566,7 +683,8 @@ video {
 
   color: #000000;
   display: table-cell;
-  width: 40%;
+  width: 33%;
+  padding-left: 20px;
 }
 
 .deep-expert {
@@ -578,15 +696,25 @@ video {
   line-height: 30px;
 }
 .deep-expert1 {
-  margin-left: 60px;
+  margin-left: 20px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 35px;
   text-align: left;
 }
+.container3 * h5 {
+  margin: 40px 0 0px 20px;
+}
 
+.service-page-label {
+  font-weight: 500;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+  font-size: 24px;
+}
 .wallet-implementation {
   overflow: hidden;
   position: relative;
@@ -622,7 +750,7 @@ video {
   color: black;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
   line-height: 40px;
   /* or 200% */
@@ -633,6 +761,43 @@ video {
 }
 .second-content-button-style {
   margin-bottom: 40px;
+}
+.contact-form {
+  position: fixed;
+  height: 440px;
+  background: #fff;
+  padding: 30px;
+  width: 400px;
+  z-index: 2000;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 200px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+.close-button {
+  float: right;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.hide {
+  display: none;
+}
+.form-input {
+  font-size: 16px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.form-submit-button {
+  background: #192eb4;
+}
+.center {
+  text-align: center;
 }
 .hyperledger {
   font-family: "Roboto", sans-serif;
@@ -652,12 +817,13 @@ video {
 .first5 {
   text-align: left;
   display: table-cell;
-  width: 30%;
+  width: 50%;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 40px;
+  padding-left: 20px;
   /* or 133% */
 
   color: #ffffff;
@@ -667,7 +833,7 @@ video {
 
 @media only screen and (max-width: 600px) {
   .logo {
-    max-width: 200px;
+    max-width: 150px;
     padding: 0;
   }
   .toggle-menu ul {
@@ -823,5 +989,83 @@ video {
   }
   .footer {
     text-align: left;
+  }
+  .about-head-text {
+    height: 180px;
+  }
+  .blockchain-text-on-image {
+    font-size: 16px;
+  }
+  .about-text-on-image {
+    font-size: 16px;
+  }
+  .about-our-values-header {
+    margin: 50px 0 10px 0;
+  }
+  .about-us-subtitle-first-element-bottom {
+    margin-bottom: 100px !important;
+  }
+  .first {
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 30px;
+    line-height: 30px;
+  }
+  .blockchain-head-text {
+    height: 140px;
+  }
+
+  .second-blockchain-image-custom {
+    margin-top: 20px;
+  }
+  .second {
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    border-top: 1px solid;
+    padding-bottom: 30px;
+  }
+  .second3 {
+    width: 100% !important;
+  }
+  .first3 {
+    width: 100%;
+  }
+  .first4 {
+    width: 100%;
+    padding: 0 30px;
+  }
+  line:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    border-top: 1px solid #cfc7c0;
+  }
+  .first4 p {
+    line-height: 30px;
+    padding-bottom: 40px;
+    padding-right: 10px !important;
+  }
+  .blockchain-what-we-do h6 {
+    line-height: 50px;
+    margin: 60px 0 50px 10%;
+  }
+  .blockchain-what-we-do-tagline {
+    line-height: 35px;
+    width: 85%;
+  }
+  .first5 {
+    width: 100%;
+    line-height: 35px;
+  }
+  .lang-logos-header-1 {
+    line-height: 50px;
+  }
+  .second-content {
+    display: none;
+  }
+  .dataservices-head-text {
+    height: 140px !important;
   }
 }

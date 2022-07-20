@@ -34,8 +34,13 @@
 .second-content-image {
   max-height: 87px;
 }
+.second-blockchain-image {
+  margin-top: 13px;
+}
 .second-content-body {
   margin-top: 50px;
+}
+.second-NFT-Design-body {
 }
 .second-content-body h6 {
   margin: 0;
@@ -100,7 +105,19 @@
 .lang-logos-header {
   font-size: 40px;
   font-weight: bold;
-  margin-bottom: 0;
+  margin-bottom: 70px;
+  margin-top: 60px;
+}
+.lang-logos-header-1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 70px;
+  padding-top: 60px;
+  margin: 0;
+}
+.first4 p {
+  padding-right: 60px;
+  font-size: 18px;
 }
 .change-color {
   color: #fbaf35;
@@ -115,6 +132,7 @@
 .search-bar {
   width: 100%;
   max-width: 360px;
+  margin-top: 40px;
   background: rgba(31, 31, 31, 1);
   display: flex;
   align-items: center;
@@ -210,6 +228,15 @@
     padding-right: 0;
   }
   .search-bar {
-    max-width: 360px;
+    max-width: 340px;
+  }
+  .wallet {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .padding-10 {
+    letter-spacing: 0px;
+    word-spacing: 0;
+    line-height: 28px;
   }
 }

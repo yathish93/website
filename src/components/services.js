@@ -7,39 +7,41 @@ import NFTMARKETPLACE3 from "../images/nft_service.png";
 function Services() {
   return (
     <div>
-      <div className="about-head-text">
-        <img className="about-head-image" src={services} alt="Freedom Blog" />
-        <div className="about-text-on-image">
+      <div className="blockchain-head-text">
+        {/* <img className="about-head-image" src={services} alt="Freedom Blog" /> */}
+        <div className="blockchain-text-on-image">
           <p> Blockchain and Web3 Services </p>
         </div>
       </div>
       <div className="about-what-we-do">
-        <div className="container">
-          <div className="first line">
+        <div className="container row">
+          <div className="first line col">
             Apton Works, a Web3 development company, is committed to assisting
             you with building Web3 applications and products. Our team's
             competencies enable forward-thinking organisations in the fields of
             branding, user experience design, mobile development, research &
             testing, and strategy consulting for one-of-a-kind Web 3 activities.
           </div>
-          <div className="second">
-            Wallet implementation Smart Contracts for Ethereum (Solidity) and
-            Solana (Rust) DAO design and implementation NFT design and minting
+          <div className="second col">
+            Wallet implementation <br />
+            Smart Contracts for Ethereum (Solidity) and Solana (Rust)
+            <br /> DAO design and implementation <br />
+            NFT design and minting <br />
             Hyperledger implementation
           </div>
         </div>
       </div>
       <div className="service-3">
-        <div className="container3">
-          <div className="first3 line">
+        <div className="container3 row">
+          <div className="second3 line col">
             <h5>Deep Expertise</h5>
-            <p className="deep-expert">
+            <p className="deep-expert1">
               We have extensive skills in a variety of technologies, namely
               blockchain, Web3, smart wallet, DAO, NFT, Data Analytics and
               beyond.
             </p>
           </div>
-          <div className="second3 line">
+          <div className="second3 line col">
             <h5> Building Ideas With Passion</h5>
             <p className="deep-expert1">
               We render straightforward business intelligence by putting forward
@@ -47,7 +49,7 @@ function Services() {
               of an enthusiastic team, let's bring out your magic.
             </p>
           </div>
-          <div className="second3 ">
+          <div className="second3 col">
             <h5>International Delivery Network</h5>
             <p className="deep-expert1">
               We have a global distribution network that spans three distinct
@@ -61,7 +63,7 @@ function Services() {
       <div className="wallet-implementation">
         <div className="wallet">
           <h6>Wallet Implementation</h6>
-          <p className="sub-content">
+          <p className="sub-content padding-10">
             If you’re a crypto exchange owner who wants to implement a crypto
             wallet to bolster your platform’s security, or if you are a trader
             seeking out an optimum platform to stock your crypto assets for
@@ -84,9 +86,10 @@ function Services() {
       <div className="smart-contracts">
         <p className="lang-logos-header">Smart Contracts </p>
 
-        <div className="container">
-          <div className="first4">
-            <img src={Etherium} alt="" /> Ethereum{" "}
+        <div className="container row">
+          <div className="first4 col">
+            <img src={Etherium} alt="" />
+            <span className="service-page-label"> Ethereum </span>
             <p>
               Our Ethereum smart contract solutions are driven by a medley of
               technical dexterity, strategic thinking, and a design-thinking
@@ -96,8 +99,9 @@ function Services() {
               contracts for all of its processes.
             </p>
           </div>
-          <div className="first4">
-            <img src={Sol} alt="" /> Solana
+          <div className="first4 col">
+            <img src={Sol} alt="" />{" "}
+            <span className="service-page-label">Solana</span>
             <p>
               A Smart Contract provides an integrated and spontaneous framework
               between the stakeholders without the intrusion of arbiters. By
@@ -110,9 +114,9 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className="about-what-we-do">
+      <div className="blockchain-what-we-do">
         <h6>DAO Design and Implementation</h6>
-        <p className="what-we-do-tagline">
+        <p className="blockchain-what-we-do-tagline">
           Apton Works is a DAO design and implementation company striving to
           enhance and spread blockchain technology across the globe. We do our
           best in fundamentally switching conventional corporations with the
@@ -127,12 +131,17 @@ function Services() {
       </div>
 
       <div className="second-content">
-        <div className="second-content-image">
-          <img src={NFTMARKETPLACE3} alt="" width="320" />
+        <div className="second-blockchain-image">
+          <img
+            src={NFTMARKETPLACE3}
+            alt=""
+            width="450px"
+            className="second-blockchain-image-custom"
+          />
         </div>
-        <div className="second-content-body">
+        <div className="second-content-body padding-20">
           <h6>NFT Design and Mining</h6>
-          <p className="second-sub-content">
+          <p className="nft-second-sub-content">
             Breathe life into your NFT ideas with groundbreaking and
             leading-edge NFT solutions with a smooth trading experience by Apton
             Works. We’re a competent Non-Fungible Token design and minting
@@ -147,17 +156,17 @@ function Services() {
       </div>
 
       <div className="hyperledger">
-        <p className="lang-logos-header">Hyperledger Implementation </p>
+        <h4 className="lang-logos-header-1">Hyperledger Implementation </h4>
 
-        <div className="container">
-          <div className="first5">
+        <div className="container-1 row">
+          <div className="first5 col">
             <h2>Hyperledger Sawtooth </h2>
             Our experts combine Hyperledger Sawtooth with a permissioned smart
             contract interpreter that was designed to provide concurrent
             transaction processing, interoperability with Ethereum contracts,
             multilingual Software Development Kits, and adaptive agreement.
           </div>
-          <div className="first5">
+          <div className="first5 col">
             <h2>Hyperledger Fabric</h2>
             To generate distinct digital identities based on blockchains or
             other distributed ledgers for compatibility, we perform Hyperledger

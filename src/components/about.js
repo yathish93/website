@@ -44,16 +44,17 @@ function About() {
 
       <div className="about-our-values">
         <h6 className="about-our-values-header">Our Values</h6>
-        <div className="row">
+        <div className="row padding-100 text-align-left">
           <div className="col">
-            <div className="column">
-              <img
-                className="socialdistance1"
-                src={socialdistance}
-                alt=""
-                width="100px"
-              />
-              <h6>We keep you in mind</h6>
+            <div className="column about-us-subtitle-first-element-bottom">
+              <div className="about-us-subtitle-first-element">
+                <img
+                  className="about-us-subtitle-image about-us-subtitle-image-first"
+                  src={socialdistance}
+                  alt=""
+                />
+              </div>
+              <h6 className="about-us-subtitle-header">We keep you in mind</h6>
               <p className="our-values-tagline">
                 Our first step is to understand what you need, so we determine
                 the appropriate tools. Our meetings are open to you, you will
@@ -62,8 +63,13 @@ function About() {
               </p>
             </div>
             <div className="column">
-              <img className="manager" src={manager} alt="" width="100px" />
-              <h6>Continual assistance</h6>
+              <img
+                className="about-us-subtitle-image"
+                src={manager}
+                alt=""
+                width="100px"
+              />
+              <h6 className="about-us-subtitle-header">Continual assistance</h6>
               <p className="our-values-tagline">
                 We consult with you at every stage of the cycle, identifying and
                 resolving bottlenecks as soon as they arise.
@@ -71,16 +77,28 @@ function About() {
             </div>
           </div>
           <div className="column">
-            <img className="socialdistance" src={cyber} alt="" width="100px" />
-            <h6>The latest technology</h6>
+            <img
+              className="about-us-subtitle-image"
+              src={cyber}
+              alt=""
+              width="100px"
+            />
+            <h6 className="about-us-subtitle-header">The latest technology</h6>
             <p className="our-values-tagline">
               We use top-notch DLT tools to render matchless speed, data
               integrity, secure environment, and adaptability to our clients.
             </p>
           </div>
           <div className="column">
-            <img className="manager" src={learning} alt="" width="100px" />
-            <h6>We are also on our learning path </h6>
+            <img
+              className="about-us-subtitle-image"
+              src={learning}
+              alt=""
+              width="100px"
+            />
+            <h6 className="about-us-subtitle-header">
+              We are also on our learning path{" "}
+            </h6>
             <p className="our-values-tagline">
               It's impossible for an organisation to stand still. This is
               applicable to us too. With our focus on delivering cutting-edge

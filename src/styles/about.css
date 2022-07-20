@@ -1,13 +1,16 @@
 @media only screen and (max-width: 600px) {
-  .about-text-on-image {
-    font-size: 20px;
+  .blockchain-text-on-image {
+    font-size: 16px;
   }
   .about-what-we-do h6,
   .about-who-we-are h6 {
-    margin: 30px 0 30px 0;
+    margin: 50px 0 20px 0;
   }
   .what-we-do-tagline {
     width: 100%;
+    text-align: left;
+    padding-left: 35px;
+    line-height: 35px;
   }
   .col {
     display: block;
@@ -22,5 +25,17 @@
   }
   .about-our-values {
     overflow: hidden;
+  }
+  .padding-20 h6 {
+    font-size: 40px;
+  }
+  .second-blockchain-image-custom {
+    margin-top: 0;
+  }
+  .second-content-body h6 {
+    padding-left: 0;
+  }
+  .second-content-body p {
+    padding-left: 0;
   }
 }

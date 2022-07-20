@@ -6,15 +6,16 @@ import image13 from "../images/image13.png";
 import image14 from "../images/image14.png";
 import image15 from "../images/image15.png";
 import web3 from "../images/web3.png";
-import image26 from "../images/image26.png"
+import image26 from "../images/image26.png";
 import "../styles/content.css";
-function Content() {
+function Content({ setFormOpen }) {
   return (
     <div>
       <div className="content-display">
         <div className="content">
           <h6>
-            Generate <span className="change-color">Web3 App</span> Better and Faster, <br />
+            Generate <span className="change-color">Web3 App</span> Better and
+            Faster, <br />
             Without a Single Line of Code!
           </h6>
           <p className="sub-content">
@@ -28,7 +29,7 @@ function Content() {
             exorbitant, when you have us by your side.
           </p>
           <center>
-            <a href="#" className="callbutton4">
+            <a onClick={setFormOpen} className="callbutton4">
               Get Started
             </a>
           </center>
@@ -43,8 +44,8 @@ function Content() {
         </div>
         <div className="second-content-body">
           <h6>
-            Get Your <span className="change-color">NFT Marketplace</span> Up and Running <br /> With The Industry
-            Experts
+            Get Your <span className="change-color">NFT Marketplace</span> Up
+            and Running <br /> With The Industry Experts.
           </h6>
           <p className="second-sub-content">
             NFTs are poised to make far-reaching changes industry-wide, and we
@@ -57,7 +58,7 @@ function Content() {
             marketplace!{" "}
           </p>
           <center>
-            <a href="#" className="second-content-button">
+            <a onClick={setFormOpen} className="second-content-button">
               Get Started
             </a>
           </center>
@@ -66,7 +67,8 @@ function Content() {
       <div className="third-content">
         <h6>
           Translate Your Organisational Logic Into Codes and <br />
-          Craft <span className="change-color-1">Smart Contracts</span> With Impeccable Functionality{" "}
+          Craft <span className="change-color-1">Smart Contracts</span> With
+          Impeccable Functionality{" "}
         </h6>
 
         <p className="third-sub-content">
@@ -77,18 +79,20 @@ function Content() {
           processes, hasten procedures, simplify entire workflows, and ensure
           security.
         </p>
-        <center><a href="#" className="callbutton4">
-          Get Started
-        </a></center>
+        <center>
+          <a onClick={setFormOpen} className="callbutton4">
+            Get Started
+          </a>
+        </center>
       </div>
       <div className="depertment-content">
         <div className="dept-img">
-          <img src={image26} alt="dep_img" width="300"/>
+          <img src={image26} alt="dep_img" width="300" />
         </div>
         <div className="dept-body">
           <h6>
-            World-class <span className="change-color">Crypto Wallet</span> Development 
-            Services for Smoother Transactions
+            World-class <span className="change-color">Crypto Wallet</span>{" "}
+            Development Services for Smoother Transactions
           </h6>
           <p className="second-sub-content">
             Through our methodologies, we render intuitive and scalable wallets
@@ -100,8 +104,8 @@ function Content() {
             sheer know-how, the expertise of utmost standards, and technical
             skill sets, you will attain utmost proficiency.
           </p>
-          <center className='second-content-button-style'>
-            <a href="#" className="second-content-button">
+          <center className="second-content-button-style">
+            <a onClick={setFormOpen} className="second-content-button">
               Get Started
             </a>
           </center>

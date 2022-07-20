@@ -1,7 +1,7 @@
 function Practices() {
   return (
     <h1 style={{ textAlign: "center", marginTop: 250, marginBottom: 150 }}>
-      Website Under Construction...
+      Page Under Construction...
     </h1>
   );
 }
