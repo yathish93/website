@@ -62,10 +62,10 @@ function Footer() {
       <div className="col-2">
         <ul>
           <li>
-            <a href="#"> About Us</a>
+            <a href="/about"> About Us</a>
           </li>
           <li>
-            <a href="#"> Web3</a>
+            <a href="/service"> Web3</a>
           </li>
           <li>
             <a href="#"> Smart Contracts</a>
