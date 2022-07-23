@@ -16,10 +16,10 @@ function Footer() {
 
     emailjs
       .sendForm(
-        "service_9vyzaie",
-        "template_9gyvzuo",
+        "service_16ecvlo",
+        "template_fwp7jbb",
         form.current,
-        "O8Gs0mH_WkVC5FGSW"
+        "CsE4f_TAl1pEDGrJG"
       )
       .then(
         (result) => {

@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import Main from "./components/main";
 import Navbar from "./components/navbar";
@@ -18,10 +18,10 @@ function App() {
 
     emailjs
       .sendForm(
-        "service_9vyzaie",
-        "template_7mch9vv",
+        "service_16ecvlo",
+        "template_fwp7jbb",
         form.current,
-        "O8Gs0mH_WkVC5FGSW"
+        "CsE4f_TAl1pEDGrJG"
       )
       .then(
         (result) => {
